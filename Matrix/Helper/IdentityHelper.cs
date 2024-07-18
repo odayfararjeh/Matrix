@@ -1,11 +1,11 @@
 ﻿
 using Common.Enums;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Sajaya_Task.Models;
+using Matrix.Models;
 using System;
 using System.Net;
 
-namespace Sajaya_Task.Helper
+namespace Matrix.Helper
 {
     public class IdentityHelper
     {

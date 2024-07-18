@@ -6,10 +6,10 @@ using Infrastructure.Interfaces.Utilities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Sajaya_Task.Helper;
+using Matrix.Helper;
 using System.Net;
 
-namespace Sajaya_Task.Controllers
+namespace Matrix.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]

@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Sajaya_Task.Helper
+namespace Matrix.Helper
 {
     public class AppException : Exception
     {

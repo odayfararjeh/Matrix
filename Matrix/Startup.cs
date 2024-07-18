@@ -10,13 +10,13 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Repository.Repository;
-using Sajaya_Task.Helper;
-using Sajaya_Task.Utilities;
+using Matrix.Helper;
+using Matrix.Utilities;
 using System.Net;
 using System.Text;
 using System.Text.Json;
 
-namespace Sajaya_Task
+namespace Matrix
 {
     public class Startup
     {
@@ -44,7 +44,7 @@ namespace Sajaya_Task
             services.AddScoped<ITokenRepository, TokenRepository>();
             services.AddSwaggerGen(gen =>
             {
-                gen.SwaggerDoc("v1", new OpenApiInfo { Title = "Clinic Solution API", Version = "v1" });
+                gen.SwaggerDoc("v1", new OpenApiInfo { Title = "Matrix API", Version = "v1" });
                 gen.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Name = "Authorization",

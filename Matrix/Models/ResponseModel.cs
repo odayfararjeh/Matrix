@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.Net;
 
-namespace Sajaya_Task.Models
+namespace Matrix.Models
 {
     public class ResponseModel
     {

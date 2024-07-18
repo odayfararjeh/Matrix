@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace Sajaya_Task.Controllers
+namespace Matrix.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

@@ -1,8 +1,8 @@
 
-using Sajaya_Task;
+using Matrix;
 using System.Reflection.Metadata;
 
-namespace Sajaya_Task
+namespace Matrix
 {
     public class Program
     {

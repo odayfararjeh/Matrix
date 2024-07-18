@@ -1,6 +1,0 @@
-@Sajaya_Task_HostAddress = http://localhost:5058
-
-GET {{Sajaya_Task_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

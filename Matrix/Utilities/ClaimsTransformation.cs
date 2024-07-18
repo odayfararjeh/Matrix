@@ -3,12 +3,12 @@ using Common.Enums;
 using Infrastructure.Interfaces.Utilities;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Sajaya_Task.Helper;
+using Matrix.Helper;
 using System.Net;
 using System.Security.Claims;
 using System.Text.Json;
 
-namespace Sajaya_Task.Utilities
+namespace Matrix.Utilities
 {
     public class ClaimsTransformation : IClaimsTransformation
     {
