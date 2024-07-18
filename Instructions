@@ -1,3 +1,6 @@
 Hi...
 
-After Cloning the solution and running DB script, just run the API project 'Matrix'
+After Cloning the solution and running DB script, just run the API project 'Matrix'. It'll open Swagger for the API endpoints. 
+you can generate token by calling 'api/Identity/Authenticate' by providing user name 'test@matrix.com' & password 'P@ssw0rd1'.
+
+to use the token with logout api. add the generated token to Authorize like this 'Bearer {token}'
